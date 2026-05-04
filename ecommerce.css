@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+html {
+    font-size: 82.5%;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #F2F2EB;
+    color: #402A22;
+}
+
+header {
+    position: relative;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    margin-top: 20px;
+    padding: 1rem 9%;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1000;
+    filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.3));
+}
+
+nav a {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #301f19;
+    margin-left: 4rem;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a:active {
+    color: #402A22;
+    border-bottom: 3px solid #A599BF;
+}
+
+
+section {
+    min-height: 100vh;
+    padding: 8rem 9% 8rem;
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    margin-top: -40px;
+    margin-bottom: 50px;
+}
+
+.inicio .textoInicio h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #9e6183;
+}
+
+.textoInicio h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #A599BF;
+    margin-bottom: 1rem;
+}
+
+.textoInicio p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.imgInicio {
+    border-radius: 50%;
+}
+
+.imgInicio img {
+    position: relative;
+    width: 32vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.imgInicio img:hover {
+    transform: scale(1.05);
+}
+
+
+.skills {
+    padding: 2rem 50px;
+    margin-bottom: 0px;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #9e6183;
+    margin-bottom: 15px;
+}
+
+.skills .skillsTexto {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.skills .ferramentas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills .ferramentas .ferramenta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 200px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.skills .ferramentas .ferramenta:hover {
+    border-color: #D9D382;
+}
+
+.skills .ferramentas .ferramenta img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 2px;
+}
+
+
+.reviews {
+    background-color: #ebebd3;
+    padding: 5rem 9%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.reviews h2 {
+    font-size: 3.5rem;
+    color: #9e6183;
+    margin-bottom: 4rem;
+}
+
+.container-reviews {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card-review {
+    background: #F2F2EB;
+    flex: 1;
+    min-width: 250px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.card-review p {
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.card-review h4 {
+    font-size: 1.6rem;
+    color: #D9D382;
+}
+
+.contato {
+    padding: 0 50px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.contato h2 {
+    font-size: 35px;
+    color: #9e6183;
+}
+
+.contato .textoContato {
+    display: flex;
+    gap: 50px;
+}
+
+.contato .textoContato p {
+    flex: 3;
+    margin-top: 20px;
+    color: #A599BF;
+}
+
+.contato .textoContato form {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato .textoContato form input,
+.contato .textoContato form textarea {
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #D9D382;
+    outline: none;
+    resize: none;
+}
+
+.contato .textoContato form textarea {
+    border: 2px solid #402A22;
+    height: 150px;
+    font-family: inherit;
+}
+
+.contato .textoContato form .mensagemArea {
+    padding: 60px;
+    border-color: #D9D382;
+}
+
+.contato .textoContato form button {
+    height: 50px;
+    margin: 15px 150px 0 150px;
+    background-color: #D9D382;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contato .textoContato form button:hover {
+    background-color: #A599BF;
+    color: #241713;
+    transition: 0.2s;
+}
+
+.btn-comprar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 35px;
+    background-color: #D9D382;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-comprar:hover {
+    background-color: #A599BF;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 1000px) {
+    .inicio {
+        gap: 4rem;
+    }
+}
+
+
+@media (max-width: 995px) {
+    nav {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 40%;
+        background-color: #161616;
+        border-left: 3px solid;
+        border-bottom: 3px solid;
+        border-bottom-left-radius: 2rem;
+        border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+        display: none;
+    }
+
+    nav.active {
+        display: block;
+    }
+
+    nav a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    nav a:hover,
+    nav a:active {
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border-bottom: 0.5rem solid #402A22;
+    }
+}
+
+
+@media (max-width: 768px) {
+    html {
+        font-size: 70%;
+    }
+
+    header {
+        padding: 1rem 5%;
+    }
+
+    .inicio {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 2rem;
+        margin-top: -100px;
+        padding-top: 10rem;
+    }
+
+    .imgInicio img {
+        width: 60vw;
+    }
+
+    .inicio .textoInicio h1 {
+        font-size: 4rem;
+    }
+
+    .skills .ferramentas {
+        margin-bottom: 200px;
+    }
+
+    .skills .ferramentas .ferramenta {
+        width: 140px;
+        font-size: 14px;
+    }
+
+    .container-reviews {
+        flex-direction: column;
+    }
+
+    .contato .textoContato {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contato .textoContato form button {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
