@@ -2,14 +2,22 @@
 
 Esta é uma landing page moderna, responsiva e elegante desenvolvida para uma loja de pelúcias artesanais.
 
+Link do projeto: [https://juliasarod.github.io/moon-plush/](https://juliasarod.github.io/moon-plush/) 
+
 ## 🛠️ Tecnologias Utilizadas
 * **HTML5**
 * **CSS3**
 
 ## 👩‍💻 Como visualizar
+
+Você pode acessar o projeto diretamente pelo navegador através do link:
+
+👉 [**Acessar plataforma MoonPlush**](https://juliasarod.github.io/moon-plush/)
+
+
 Para visualizar o projeto localmente:
 1. Faça o download ou clone este repositório.
-2. Abra o arquivo `ecommerce.html` em qualquer navegador.
+2. Abra o arquivo `index.html` em qualquer navegador.
 
 ---
 ✨ Desenvolvido por [Júlia Santos](https://github.com/juliasarod)
